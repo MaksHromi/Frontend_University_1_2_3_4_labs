@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom, #0099ff -36%, #cc66ff 131%);
+}
+.head-button img {
+    width: 300px;
+    margin-left: 40px;
+    padding-top: 13px;
+    position: absolute;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.css {
+    margin-top: 80px;
+    background: #f4f6f8;
+    padding: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px 2px #aaa;
+    padding: 20px 20px;
+    padding-right: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.head-button ul {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.head-button ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: -4px;
+}
+
+.lab2-button {
+    text-decoration: none;
+    background: rgb(102, 101, 196);
+    padding: 15px 20px 10px 20px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.lab1-button {
+    border-left: none;
+}
+
+.border {
+    border-left: 1px solid white;
+}
+
+.lab1-button, .lab3-button, .lab4-button, .lab5-button {
+    text-decoration: none;
+    background: rgb(28, 27, 77);
+    padding: 15px 20px 10px 20px;
+    font-size: 16px;
+    color: aliceblue;
+    transition: 0.6s;
+}
+
+.lab1-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab3-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab4-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab5-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}

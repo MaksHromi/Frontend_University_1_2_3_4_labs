@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+header {
+    background: linear-gradient(to bottom, #0099ff -36%, #cc66ff 131%);
+}
+.head-button img {
+    width: 300px;
+    margin-left: 40px;
+    padding-top: 13px;
+    position: absolute;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.task {
+    margin-left: 300px;
+    margin-right: 300px;
+    background: #f4f6f8;
+    padding: 100px;
+}
+
+
+.task button {
+    text-decoration: none;
+    background: rgb(28, 27, 77);
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.task button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+
+.one-task {
+    width: 185px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+.head-button ul {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.head-button ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: -4px;
+}
+
+.lab5-button {
+    text-decoration: none;
+    background: rgb(102, 101, 196);
+    padding: 15px 20px 10px 20px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.lab1-button {
+    border-left: none;
+}
+
+.border {
+    border-left: 1px solid white;
+}
+
+.lab2-button, .lab3-button, .lab4-button, .lab1-button {
+    text-decoration: none;
+    background: rgb(28, 27, 77);
+    padding: 15px 20px 10px 20px;
+    font-size: 16px;
+    color: aliceblue;
+    transition: 0.6s;
+}
+
+.lab2-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab3-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab4-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+.lab5-button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
