@@ -25,6 +25,7 @@ header h1 {
     margin-right: 300px;
     background: #f4f6f8;
     padding: 100px;
+    padding-bottom: 500px;
 }
 
 
@@ -47,17 +48,75 @@ header h1 {
 }
 
 .one-task {
-    width: 185px;
+    width: 200px;
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 30px;
     text-align: center;
 }
 
+.one-task3 p {
+    margin-top: 20px;
+}
 
+.one-task3 {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    float: inline-end;
+}
 
+.one-task4 {
+    width: 200px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    text-align: center;
 
+}
 
+.one-task3 button {
+    text-decoration: none;
+    background: rgb(28, 27, 77);
+    width: 200px;
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.one-task3 button:hover {
+    color: white;
+    background: rgb(102, 101, 196);
+}
+
+.one-task3 input {
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    border-color: #cc66ff;
+}
+
+.one-task3 input:hover {
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    border-color: #cc66ff;
+}
+
+.one-task4 h2 {
+    background-color: #0099ff;
+    width: 200px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.calculator {
+    margin-top: 20px;
+    width: 500px;
+}
 .head-button ul {
     text-align: center;
     padding-top: 50px;
